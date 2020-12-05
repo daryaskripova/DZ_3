@@ -24,12 +24,22 @@ public class Main {
                     if (a%2==0) b=S[0]+S[2]; else b=S[1]+S[2];
             System.out.println("описание введенного числа");
             System.out.println(b);
+            System.out.println(" ");
         }
 
     //таблица умножения
         {
-
+            System.out.println("таблица умножения");
+            for (int x, i = 2; i <= 9; i++)
+                {for (int j = 1; j <= 10; j++)
+                    {x=i*j;
+                    System.out.println(i+"*"+j+"="+x);
+                   }
+                System.out.println(" ");
+                }
+            System.out.println(" ");
         }
+
     //арифметическая или геометрическая прогрессию для N чисел
     }
 }
